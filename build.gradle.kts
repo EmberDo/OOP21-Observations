@@ -1,5 +1,4 @@
 plugins {
-    kotlin("jvm") version "1.7.20"
     java
     application
     id ("com.github.johnrengelman.shadow") version "7.1.2"
@@ -13,9 +12,9 @@ repositories {
 }
 
 val javaFXModules = listOf(
-        "base",
-        "controls",
-        "graphics"
+    "base",
+    "controls",
+    "graphics"
 )
 
 val supportedPlatforms = listOf("linux", "mac", "win")
